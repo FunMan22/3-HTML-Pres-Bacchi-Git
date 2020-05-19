@@ -3,3 +3,20 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .mySlides {display:none;}
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
