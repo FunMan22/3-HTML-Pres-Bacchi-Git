@@ -2,6 +2,14 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: 'Pangolin', cursive;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2em;
+}
+
 .mySlides {
     display:none;
 }
@@ -28,7 +36,7 @@ button.w3-button {
 }
 
 button.w3-button:hover {
-    opacity: 0.4!important;
+    opacity: 0.5!important;
     background-color: #040404!important;
     color: white!important;
 }
@@ -62,4 +70,17 @@ button.w3-button:hover {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+
+.w3-green, .w3-hover-green:hover {
+    background-color: #4CAF50cc!important;
+}
+.w3-blue, .w3-hover-blue:hover {
+    background-color: #2196F3cc!important;
+}
+.w3-purple, .w3-hover-purple:hover {
+    background-color: #9c27b0cc!important;
+}
+.w3-red, .w3-hover-red:hover {
+    background-color: #f44336cc!important;
 }
