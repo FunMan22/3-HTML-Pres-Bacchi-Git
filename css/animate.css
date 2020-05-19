@@ -1981,6 +1981,39 @@ print {
     animation-name: fadeInDown
 }
 
+@-webkit-keyframes fadeInDown2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%, -150%, 0);
+        transform: translate3d(-50%, -150%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0)
+    }
+}
+
+@keyframes fadeInDown2 {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%, -150%, 0);
+        transform: translate3d(-50%, -150%, 0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0)
+    }
+}
+
+.animate__fadeInDown2 {
+    -webkit-animation-name: fadeInDown2;
+    animation-name: fadeInDown2
+}
+
 @-webkit-keyframes fadeInDownBig {
     0% {
         opacity: 0;
