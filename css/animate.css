@@ -1998,8 +1998,8 @@ print {
 @keyframes fadeInDown2 {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(-50%, -150%, 0);
-        transform: translate3d(-50%, -150%, 0)
+        -webkit-transform: translate3d(-50%, -200%, 0);
+        transform: translate3d(-50%, -200%, 0)
     }
 
     to {
