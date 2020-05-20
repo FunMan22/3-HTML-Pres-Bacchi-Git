@@ -23,7 +23,7 @@
                     document.getElementById("myAudio").play();
                 };
                 document.getElementById("myAudio").onplay = function() {
-                    document.getElementById("myAudioFigure").style.opacity = "0.2";
+                    document.getElementById("myAudioFigure").style.opacity = "0.25";
                     document.getElementById("myAudio").volume = 0.05;
                 };
             };
@@ -81,7 +81,7 @@
 
         <figure class="w3-display-bottomright" id="myAudioFigure">
             <figcaption style="text-align: right;">Ketsa - Life Illusion via <a href="https://www.freemusicarchive.org">Free Music Archive</a>.</figcaption>
-            <audio controls autoplay style="float: right; height: 25px; width: 300px;" volume="0.1" id="myAudio">
+            <audio controls autoplay loop style="float: right; height: 25px; width: 300px;" volume="0.1" id="myAudio">
                 <source src="audio/Ketsa_-_09_-_Life_Illusion.mp3" type="audio/mpeg">
                  Your browser does not support the 
                 <code>audio</code>
