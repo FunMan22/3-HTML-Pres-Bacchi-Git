@@ -84,3 +84,12 @@ button.w3-button:hover {
 .w3-red, .w3-hover-red:hover {
     background-color: #f44336cc!important;
 }
+
+#myAudioFigure {
+    transition: 0.8s;
+}
+
+#myAudioFigure:hover {
+    opacity: 1!important;
+    transition: 1s;
+}
